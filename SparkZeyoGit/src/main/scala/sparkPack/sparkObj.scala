@@ -38,7 +38,7 @@ object sparkObj {
 					flattendf.show()
 					flattendf.printSchema()
 					
-					println("====================complex df==========")
+					println("====================complex  df==========")
 
 					val complexdf = flattendf.groupBy("Permanent_address","temporary_address","first_name","second_name")
 					.agg(
